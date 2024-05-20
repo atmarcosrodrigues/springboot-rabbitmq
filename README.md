@@ -24,6 +24,10 @@ networks:
  default:
    driver: bridge
 ```
+- Run RabbitMQ docker container:
+```
+  $ docker compose up -d
+```
 
 - Update the src/main/resources/application.properties file with your settings like following:
 
